@@ -1,4 +1,4 @@
-package cn.rentsoft.flutter.openim.consumer;
+package cn.privchat.messenger;
 
 import io.flutter.embedding.android.FlutterActivity;
 

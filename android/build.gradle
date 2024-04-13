@@ -1,5 +1,6 @@
+
 buildscript {
-    ext.kotlin_version = '1.7.10'
+    ext.kotlin_version = '1.9.22'
     repositories {
         maven { url 'https://maven.aliyun.com/nexus/content/groups/public/' }
         maven { url 'https://maven.aliyun.com/nexus/content/repositories/jcenter' }
@@ -7,6 +8,7 @@ buildscript {
         maven { url 'https://maven.aliyun.com/nexus/content/repositories/gradle-plugin' }
         maven { url "https://mvn.gt.getui.com/nexus/content/repositories/releases/" }
         maven { url 'https://developer.huawei.com/repo/' }    // hms
+        maven { url 'https://developer.hihonor.com/repo' }    // honor
         maven { url "https://dl.google.com/dl/android/maven2/" }   // fcm
         maven {
             url 'https://maven.columbus.heytapmobi.com/repository/releases/'
@@ -20,10 +22,10 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.2.0'
+        classpath 'com.android.tools.build:gradle:7.4.2'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath 'com.google.gms:google-services:4.3.5'  // fcm
-        classpath 'com.huawei.agconnect:agcp:1.5.2.300'    // hms
+        classpath 'com.google.gms:google-services:4.4.1'  // fcm
+        classpath 'com.huawei.agconnect:agcp:1.9.1.303'    // hms
     }
 }
 
@@ -35,6 +37,7 @@ allprojects {
         maven { url 'https://maven.aliyun.com/nexus/content/repositories/gradle-plugin' }
         maven { url "https://mvn.gt.getui.com/nexus/content/repositories/releases/" }
         maven { url 'https://developer.huawei.com/repo/' }    // hms
+        maven { url 'https://developer.hihonor.com/repo' }    // honor
         maven { url "https://dl.google.com/dl/android/maven2/" }   // fcm
         maven {
             url 'https://maven.columbus.heytapmobi.com/repository/releases/'

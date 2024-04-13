@@ -382,7 +382,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   app_installer: 4301996bd8f3c6f75776416b8885a6d92928306f
-  audio_session: 4f3e461722055d21515cf3261b64c973c062f345
+  audio_session: 088d2483ebd1dc43f51d253d4a1c517d9a2e7207
   camera_avfoundation: 759172d1a77ae7be0de08fc104cfb79738b8a59e
   connectivity_plus: bf0076dd84a130856aa636df1c71ccaff908fa1d
   device_info_plus: c6fb39579d0f423935b0c9ce7ee2f44b71b9fce6
@@ -396,7 +396,7 @@ SPEC CHECKSUMS:
   flutter_inappwebview: 3d32228f1304635e7c028b0d4252937730bbc6cf
   flutter_keyboard_visibility: 0339d06371254c3eb25eeb90ba8d17dca8f9c069
   flutter_local_notifications: 0c0b1ae97e741e1521e4c1629a459d04b9aec743
-  flutter_native_splash: 52501b97d1c0a5f898d687f1646226c1f93c56ef
+  flutter_native_splash: edf599c81f74d093a4daf8e17bd7a018854bc778
   flutter_openim_sdk: 7c2e09c94160043725519c3ba57f30828002f0d6
   flutter_webrtc: 55df3aaa802114dad390191a46c2c8d535751268
   getuiflut: 8628ba2b64a738a847a07d2b67e0ac305778e2ee
@@ -410,7 +410,7 @@ SPEC CHECKSUMS:
   GTSDK: cc04d169c5c6cb8f8884849153eaac9e6ccfdd7c
   image_cropper: a3291c624a953049bc6a02e1f8c8ceb162a24b25
   image_gallery_saver: cb43cc43141711190510e92c460eb1655cd343cb
-  image_picker_ios: 99dfe1854b4fa34d0364e74a78448a0151025425
+  image_picker_ios: b545a5f16c0fa88e3ecbbce3ed4de45567a8ec18
   just_audio: baa7252489dbcf47a4c7cc9ca663e9661c99aafa
   libwebp: 1786c9f4ff8a279e4dac1e8f385004d5fc253009
   livekit_client: 108b5e32d6036dfc1af5e2237251d2b723a10f76
@@ -453,4 +453,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 3003a7d95e8a59d1b52038824bad0a4b90bc52ca
 
-COCOAPODS: 1.14.3
+COCOAPODS: 1.15.2

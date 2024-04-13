@@ -31,13 +31,12 @@ class ServerConfigLogic extends GetxController {
 
   @override
   void onInit() {
-    ipCtrl.text = Config.serverIp;
-
+  
     authCtrl.text = Config.appAuthUrl;
     imApiCtrl.text = Config.imApiUrl;
     imWsCtrl.text = Config.imWsUrl;
 
-    isIP.value = RegexUtil.isIP(ipCtrl.text);
+    isIP.value = false;
 
     ipCtrl.addListener(() {
       if (isIP.value) {

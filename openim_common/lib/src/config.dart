@@ -55,50 +55,8 @@ class Config {
 
   static const friendScheme = "io.openim.app/addFriend/";
   static const groupScheme = "io.openim.app/joinGroup/";
-
-  static const _host = "43.154.157.177";
-
-  static const _ipRegex = '((2[0-4]\\d|25[0-5]|[01]?\\d\\d?)\\.){3}(2[0-4]\\d|25[0-5]|[01]?\\d\\d?)';
-
-  static bool get _isIP => RegExp(_ipRegex).hasMatch(_host);
-
-  static String get serverIp {
-    String? ip;
-    var server = DataSp.getServerConfig();
-    if (null != server) {
-      ip = server['serverIP'];
-      Logger.print('缓存serverIP: $ip');
-    }
-    return ip ?? _host;
-  }
-
-  static String get appAuthUrl {
-    String? url;
-    var server = DataSp.getServerConfig();
-    if (null != server) {
-      url = server['authUrl'];
-      Logger.print('authUrl: $url');
-    }
-    return url ?? (_isIP ? "http://$_host:10008" : "https://$_host/chat");
-  }
-
-  static String get imApiUrl {
-    String? url;
-    var server = DataSp.getServerConfig();
-    if (null != server) {
-      url = server['apiUrl'];
-      Logger.print('apiUrl: $url');
-    }
-    return url ?? (_isIP ? 'http://$_host:10002' : "https://$_host/api");
-  }
-
-  static String get imWsUrl {
-    String? url;
-    var server = DataSp.getServerConfig();
-    if (null != server) {
-      url = server['wsUrl'];
-      Logger.print('wsUrl: $url');
-    }
-    return url ?? (_isIP ? "ws://$_host:10001" : "wss://$_host/msg_gateway");
-  }
+  
+  static const appAuthUrl = "https://account.privchat.cn";
+  static const imApiUrl = "https://web-api.privchat.cn";
+  static const imWsUrl = "wss://api.privchat.cn";
 }

@@ -10,7 +10,7 @@ import 'package:rxdart/rxdart.dart';
 
 import '../widgets/upgrade_view.dart';
 
-class UpgradeManger {
+mixin UpgradeManger {
   PackageInfo? packageInfo;
   UpgradeInfoV2? upgradeInfoV2;
   var isShowUpgradeDialog = false;
