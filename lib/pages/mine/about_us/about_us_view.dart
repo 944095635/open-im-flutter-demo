@@ -35,8 +35,9 @@ class AboutUsPage extends StatelessWidget {
                   ..height = 55.h,
                 10.verticalSpace,
                 Obx(() =>
-                    '${logic.appName} V${logic.version.value}/ SDK V${OpenIM.version}'
-                        .toText
+                    // TODO: Show SDK version for PrivChat?
+                    // '${logic.appName} V${logic.version.value} / SDK V${OpenIM.version}'.toText
+                    '${logic.appName} Version ${logic.version.value}'.toText
                       ..style = Styles.ts_0C1C33_14sp),
                 16.verticalSpace,
                 Container(
