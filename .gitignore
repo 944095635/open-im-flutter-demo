@@ -5,7 +5,10 @@
 
 # FVM Version Cache
 .fvm/
+
+.DS_Store
 android/.idea/
+android/app/proguard/
 .vscode/
 build/
 pubspec.lock

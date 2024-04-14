@@ -238,11 +238,12 @@ class TitleBar extends StatelessWidget implements PreferredSizeWidget {
         left = StrRes.contacts.toText..style = Styles.ts_0C1C33_20sp_semibold,
         right = Row(
           children: [
-            ImageRes.searchBlack.toImage
-              ..width = 28.w
-              ..height = 28.h
-              ..onTap = onClickSearch,
-            16.horizontalSpace,
+            // TODO: Search button
+            // ImageRes.searchBlack.toImage
+            //   ..width = 28.w
+            //   ..height = 28.h
+            //   ..onTap = onClickSearch,
+            // 16.horizontalSpace,
             ImageRes.addContacts.toImage
               ..width = 28.w
               ..height = 28.h

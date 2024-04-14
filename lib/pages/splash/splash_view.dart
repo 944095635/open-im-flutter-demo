@@ -26,8 +26,8 @@ class SplashPage extends StatelessWidget {
           Positioned(
             bottom: 130.h,
             child: ImageRes.splashLogo.toImage
-              ..width = 55.61.w
-              ..height = 78.91.h,
+              ..width = 55.w
+              ..height = 55.h,
           ),
         ],
       ),

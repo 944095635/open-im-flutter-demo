@@ -29,7 +29,7 @@ android {
     namespace = "cn.privchat.messenger"
 
     compileSdkVersion 34
-    ndkVersion '26.1.10909125'
+    ndkVersion flutter.ndkVersion
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
@@ -109,7 +109,7 @@ android {
     android.applicationVariants.all {
         variant ->
             variant.outputs.all {
-                outputFileName = "OpenIM_${versionName}(${versionCode})_${buildType.name}_${buildTime()}.apk"
+                outputFileName = "PrivChat_${versionName}(${versionCode})_${buildType.name}_${buildTime()}.apk"
             }
     }
 }

@@ -32,7 +32,7 @@ class AboutUsPage extends StatelessWidget {
                 23.verticalSpace,
                 ImageRes.splashLogo.toImage
                   ..width = 55.w
-                  ..height = 78.h,
+                  ..height = 55.h,
                 10.verticalSpace,
                 Obx(() =>
                     '${logic.appName} V${logic.version.value}/ SDK V${OpenIM.version}'

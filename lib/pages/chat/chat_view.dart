@@ -82,7 +82,8 @@ class ChatPage extends StatelessWidget {
             onClickCallBtn: logic.call,
           ),
           body: WaterMarkBgView(
-            text: logic.markText,
+            // TODO: allow set markText
+            // text: logic.markText,
             backgroundColor: Styles.c_FFFFFF,
             bottomView: ChatInputBox(
               allAtMap: logic.atUserNameMappingMap,
