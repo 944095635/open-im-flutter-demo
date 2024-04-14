@@ -1,7 +1,7 @@
 import 'package:flutter_openim_sdk/flutter_openim_sdk.dart';
 import 'package:get/get.dart';
-import 'package:openim/pages/contacts/add_by_search/add_by_search_logic.dart';
-import 'package:openim/routes/app_navigator.dart';
+import 'package:privchat/pages/contacts/add_by_search/add_by_search_logic.dart';
+import 'package:privchat/routes/app_navigator.dart';
 
 class AddContactsMethodLogic extends GetxController {
   scan() => AppNavigator.startScan();

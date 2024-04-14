@@ -1,6 +1,6 @@
 import 'package:flutter_openim_sdk/flutter_openim_sdk.dart';
 import 'package:get/get.dart';
-import 'package:openim/routes/app_navigator.dart';
+import 'package:privchat/routes/app_navigator.dart';
 
 import '../../conversation/conversation_logic.dart';
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:openim/pages/mine/server_config/server_config_binding.dart';
-import 'package:openim/pages/mine/server_config/server_config_view.dart';
+import 'package:privchat/pages/mine/server_config/server_config_binding.dart';
+import 'package:privchat/pages/mine/server_config/server_config_view.dart';
 import 'package:openim_common/openim_common.dart';
 
 import '../../core/controller/im_controller.dart';

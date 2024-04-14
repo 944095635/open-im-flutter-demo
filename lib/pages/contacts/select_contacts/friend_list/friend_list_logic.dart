@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:openim/pages/contacts/friend_list/friend_list_logic.dart';
-import 'package:openim/routes/app_navigator.dart';
+import 'package:privchat/pages/contacts/friend_list/friend_list_logic.dart';
+import 'package:privchat/routes/app_navigator.dart';
 import 'package:openim_common/openim_common.dart';
 
 import '../select_contacts_logic.dart';

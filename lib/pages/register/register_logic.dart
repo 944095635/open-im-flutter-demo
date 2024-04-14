@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:openim/routes/app_navigator.dart';
+import 'package:privchat/routes/app_navigator.dart';
 import 'package:openim_common/openim_common.dart';
 
 import '../../core/controller/app_controller.dart';
