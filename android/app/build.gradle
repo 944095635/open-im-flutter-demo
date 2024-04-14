@@ -60,7 +60,7 @@ android {
         }
 
         manifestPlaceholders = [
-                GETUI_APPID    : "",
+                GETUI_APPID    : "0HmnOOx5CfAl2tWQLNtpp5",
                 // 下面是多厂商配置，如需要开通使用请联系技术支持
                 // 如果不需要使用，预留空字段即可
                 XIAOMI_APP_ID  : "",
